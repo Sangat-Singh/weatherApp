@@ -11,8 +11,8 @@ import sunnyAnim from "./lottie/sunny.json";
 import cloudyAnim from "./lottie/cloudy.json";
 import rainyAnim from "./lottie/rain.json";
 import stormyAnim from "./lottie/storm.json";
-// import snowyAnim from "./lottie/snowy.json";
-// import foggyAnim from "./lottie/foggy.json";
+import snowyAnim from "./lottie/rain.json";
+import foggyAnim from "./lottie/error.json";
 
 function Chatbot() {
   const [messages, setMessages] = useState([
