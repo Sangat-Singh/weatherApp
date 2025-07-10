@@ -996,18 +996,6 @@ html, body {
   position: relative;
 }
 
-/* .forecast-container::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* dark overlay to enhance text readability */
-  /* z-index: 0;
-} */ */
-
-.forecast-container > * {
-  position: relative;
-  z-index: 1;
-}
 
 .seven-day-forecast {
   margin-top: 3rem;
