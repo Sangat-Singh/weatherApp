@@ -1,0 +1,49 @@
+{
+  "name": "weather",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "lottie-react": "^2.4.1",
+    "openai": "^3.2.1",
+    "react": "^16.13.1",
+    "react-animated-weather": "^4.0.1",
+    "react-dom": "^16.13.1",
+    "react-geolocated": "^3.0.1",
+    "react-live-clock": "^6.1.25",
+    "react-scripts": "^0.0.0",
+    "react-scroll": "^1.9.3",
+    "react-simple-chatbot": "^0.6.1",
+    "react-skycons": "^0.7.0",
+    "skycons": "^1.0.0"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

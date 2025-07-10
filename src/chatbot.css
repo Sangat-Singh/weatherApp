@@ -1,0 +1,140 @@
+.chatbot-container {
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ffffff20;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.chat-box {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.chat-box::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.chat-message {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.chat-message.user {
+  align-self: flex-end;
+  background-color: #0078d4;
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.chat-message.bot {
+  align-self: flex-start;
+  background-color: #e5e5e5;
+  color: #333;
+  border-bottom-left-radius: 0;
+}
+
+.input-box {
+  display: flex;
+  padding: 12px;
+  border-top: 1px solid #ddd;
+  background-color: #f8f8f8;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input-box button {
+  margin-left: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-box button:hover {
+  background-color: #005ea2;
+}
+.faq-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.faq-button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #eef5ff;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.faq-button:hover {
+  background-color: #cde3ff;
+}
+.chatbot-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -10px;
+  position: relative;
+}
+
+.robot-animation {
+  width: 180px;
+  height: auto;
+  margin-bottom: -50px; /* adjust this for vertical spacing */
+  z-index: 1;
+}
+
+.chatbot-container {
+  background-color: rgba(0, 0, 0, 0.5); /* optional for visibility */
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  z-index: 2;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
