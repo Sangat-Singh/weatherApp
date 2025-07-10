@@ -1,16 +1,24 @@
-<p align="center">
-<img src="https://www.htmlhints.com/image/react/reactWeatherApp.png" width="100%">
-</p>
+# ☀️ WeatherApp
 
-<p align="center">
-  View Complete <a href="https://www.htmlhints.com/article/how-to-create-weather-app-using-reactjs-with-current-location-search-city/93">Installation details</a>.
- </p>
- <p align="center">
-  View <a href="https://master.d2gxbs6vwhkz68.amplifyapp.com/">Live demo</a>.
- </p>
+A modern React-based weather forecast app using OpenWeather API.
 
-## Setup
+## 🌐 Live Demo
+[View on Netlify](https://your-site.netlify.app)
 
-```
-npm i && npm start
-```
+## 🚀 Features
+- Real-time weather data
+- Location-based forecast
+- Clean and responsive UI
+- Secure API key management via `.env`
+
+## 🔧 Tech Stack
+- React
+- OpenWeather API
+- Netlify (deployment)
+
+## 🛠️ Setup & Run Locally
+
+```bash
+git clone https://github.com/your-username/weatherApp.git
+cd weatherApp
+npm install
