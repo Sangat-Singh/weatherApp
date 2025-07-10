@@ -46,7 +46,8 @@ const getWeatherIcon = (weatherMain) => {
 
 function Forecast() {
   const [query, setQuery] = useState("");
-  const [error, setError] = useState("");
+  const [, setError] = useState(null); // ignore unused 'error'
+
   const [weather, setWeather] = useState(null);
   const [daily, setDaily] = useState([]);
 
